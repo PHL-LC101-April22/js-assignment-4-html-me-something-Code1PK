@@ -1,1 +1,76 @@
 /* Write your CSS here! */
+/* Use the element selector to give the <body> element a margin value of 8px and a display 
+type of block. */
+body {
+	margin: 8px;
+	background-color: white;
+	font-size: 20px;
+    display: block;
+    max-width: 100%;
+    font-family: Helvetica, sans-serif;
+    }
+header{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+/* Give a heading on your page the id of mainHeading and use the id selector in styles.css to give
+ it a color value of red. */
+#mainHeading {
+    color: red;
+    text-align: center;
+ }
+ /* Give a paragraph on your page the id of testP and a class name of funParagraph. Use 
+ the class selector in styles.css to give it a color value of green. */
+.funParagraph {
+    color: green;
+    margin: 50px;
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #efeff0;
+    border-bottom: 1px solid #efeff0;
+ }
+
+h2, h3 {
+	margin: 1em;
+    border-bottom: 1px solid #efeff0;
+}
+p {
+    margin: 1em;
+}
+img {
+    width: 100%;
+    max-width: auto;
+}
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+figcaption {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: .75em;
+    color: #757575;
+    padding-top: 8px;
+    margin-bottom: 12px;
+}
+
+.map{
+    border: 2px solid #757575;
+    padding: 11px 25px;
+    cursor: pointer;
+}
+a[href] {
+    background-color: white;
+    color: #757575;
+    text-decoration: none;
+ }
+footer {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em; 
+    padding-top: 1em;
+    border-top: 1px solid #efeff0;
+}
+
